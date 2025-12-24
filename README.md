@@ -1,52 +1,39 @@
-# Análise Gráfica de Conceitos ENADE – Universidades do Nordeste (Área de Tecnologia)
+# Análise Gráfica do ENADE – Universidades do Nordeste (Tecnologia)
 
-Este projeto foi desenvolvido no contexto de uma **Bolsa de Incentivo Acadêmico** realizada pela **Universidade de Pernambuco (UPE)**.  
-O trabalho consiste na **análise e visualização gráfica** de dados do ENADE, com foco exclusivo em **universidades da região Nordeste** e **cursos da área de tecnologia**.
+Este repositório reúne um projeto desenvolvido durante uma **Bolsa de Incentivo Acadêmico da UPE**, com foco na **análise e visualização de dados do ENADE**.  
+A análise considera **universidades da região Nordeste** e **cursos da área de tecnologia**, utilizando Python para transformar dados brutos em informações visuais.
 
-## 📊 Objetivo do Projeto
+## 🎯 Objetivo
 
-O objetivo principal é analisar a evolução dos **conceitos do ENADE** ao longo dos anos para universidades nordestinas da área de tecnologia, utilizando **gráficos de barras** como ferramenta de apoio visual.
+Analisar a evolução dos conceitos do ENADE ao longo dos anos e apresentar esses dados por meio de **gráficos de barras**, facilitando a comparação entre diferentes instituições de ensino.
 
-Com isso, o projeto busca:
-- Facilitar a interpretação dos dados educacionais;
-- Comparar o desempenho das instituições ao longo do tempo;
-- Aplicar conceitos práticos de análise de dados com Python;
-- Desenvolver habilidades em visualização de dados.
+O projeto explora o uso de ferramentas de análise de dados, desde a leitura de planilhas até a visualização gráfica dos resultados.
 
-## 🧠 Recorte da Análise
+## 📌 Recorte da análise
 
-- **Região:** Nordeste do Brasil  
-- **Instituições analisadas:** universidades nordestinas  
-- **Área:** cursos da área de **Tecnologia**  
-- **Indicador:** conceito ENADE por ano
+- Região analisada: **Nordeste do Brasil**
+- Área: **Tecnologia**
+- Indicador: **Conceito ENADE**
+- Visualização: gráficos Ano × Conceito por universidade
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - **Python**
 - **Pandas** – leitura, filtragem e manipulação de dados
-- **Matplotlib** – geração e customização de gráficos
-- **Excel (.xlsx)** – base de dados utilizada
+- **Matplotlib** – criação e personalização de gráficos
+- **Excel (.xlsx)** – base de dados
 
-## 📁 Estrutura dos Dados
+## 📊 Funcionalidades
 
-A planilha de dados contém, entre outras, as seguintes colunas:
-- `ANO` – ano de aplicação do ENADE  
-- `CONCEITO` – conceito obtido no ENADE  
-- `UNIVERSIDADE` – instituição de ensino  
-
-Os dados são filtrados individualmente para cada universidade analisada.
-
-## 📈 Funcionalidades do Projeto
-
-- Leitura de dados a partir de arquivo Excel;
+- Leitura de dados a partir de planilha Excel;
 - Filtragem dos dados por universidade;
-- Geração de gráficos de barras (Ano × Conceito);
-- Visualização individual dos resultados por instituição;
-- Exibição sequencial dos gráficos para análise comparativa.
+- Geração de gráficos de barras para cada instituição;
+- Visualização sequencial dos resultados para análise comparativa.
 
-## 🚀 Como Visualizar e Executar o Projeto
+## ▶️ Como executar o projeto
 
 ### 1️⃣ Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/giovannaps/dados-enade.git
+
 
