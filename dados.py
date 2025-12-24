@@ -167,7 +167,6 @@ def dadosUNP(x, y):
 	plt.bar(x, y, color='#5177E6')
 	plt.show() 
 	
-	
 #mostrar o gráfico de todas as universidades
 def dadosGraficos():
 	plt.ylim(0, 5)
@@ -184,8 +183,25 @@ def dadosGraficos():
 	dadosUNP(x,y)
 	plt.show()
 
+def compararUniversidades():
+	ano = dadosPlanilha[dadosPlanilha['ANO'] == 2026]
+	x = ano['UNIVERSIDADE']   
+	y = ano['CONCEITO']       
+	plt.title("Comparação de Conceitos das Universidades", 
+	fontweight='bold')
+	plt.xlabel("Universidade")
+	plt.ylabel("Conceito")
+	plt.ylim(0, 5)
+	plt.bar(x, y, color='#5177E6')
+	plt.xticks(rotation=45, ha='right', fontsize=8)
+	plt.show()
+
+
 #exibir função com todos os gráficos 
 dadosGraficos()
+
+#exibir função com comparação entre universidades em 2026
+compararUniversidades()
 
 
 
