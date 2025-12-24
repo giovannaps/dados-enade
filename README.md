@@ -36,4 +36,13 @@ O projeto explora o uso de ferramentas de análise de dados, desde a leitura de 
 ```bash
 git clone https://github.com/giovannaps/dados-enade.git
 
+2️⃣ Entrar na pasta do projeto
+cd dados-enade
+
+3️⃣Instalar as bibliotecas necessárias
+
+Depois de clonar o repositório, é preciso instalar as dependências:
+
+pip install pandas matplotlib openpyxl
+
 
