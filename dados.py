@@ -43,18 +43,6 @@ def dadosFAINOR(x, y):
 	plt.bar(x, y, color='#5177E6')
 	plt.show() 
 
-def dadosUFBA(x, y):
-	ufba = dadosPlanilha[dadosPlanilha['UNIVERSIDADE'] == "UFBA"]
-	x = ufba['ANO'].astype(str)
-	y = ufba['CONCEITO']
-	plt.title("Gráfico de Barras - Ano x Conceito (UFBA)",
-	fontweight='bold')
-	plt.xlabel("Ano")
-	plt.ylabel("Conceito")
-	plt.ylim(0,5)
-	plt.bar(x, y, color='#5177E6')
-	plt.show() 
-
 def dadosUNIFACS(x, y):
 	unifacs = dadosPlanilha[dadosPlanilha['UNIVERSIDADE'] == "UNIFACS"]
 	x = unifacs['ANO'].astype(str)
