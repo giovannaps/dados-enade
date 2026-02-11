@@ -29,7 +29,7 @@ def dadosGraficos():
         plt.show()
 
   
-
+#Comparar universidades em 2026
 def compararUniversidades():
     ano = dadosPlanilha[dadosPlanilha['ANO'] == 2026]
     x = ano['UNIVERSIDADE']
