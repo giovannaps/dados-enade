@@ -25,7 +25,6 @@ def dadosGraficos():
         plt.title(i, fontweight='bold')
         plt.xlabel("Ano")
         plt.ylabel("Conceito")
-        plt.legend()
         plt.show()
 
   
