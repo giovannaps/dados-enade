@@ -8,10 +8,6 @@ dadosPlanilha = pd.read_excel('dadosenade.xlsx')
 colunas = dadosPlanilha.columns
 linhas = dadosPlanilha.index
 
-# Colocando dados principais dos gráficos como variáveis globais
-x = dadosPlanilha['ANO'].astype(str)
-y = dadosPlanilha['CONCEITO'].astype(str)
-
 
 # Configurando o estilo dos gráficos
 plt.rcParams['font.serif'] = ['DejaVu Sans']
