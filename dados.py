@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Lendo o arquivo excel
-dadosPlanilha = pd.read_excel('dadosenade(1).xlsx')
+dadosPlanilha = pd.read_excel('dadosenadefinal.xlsx')
 
 # Declarando as colunas e linhas
 colunas = dadosPlanilha.columns
