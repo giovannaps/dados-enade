@@ -1,7 +1,7 @@
-# Análise Gráfica do ENADE – Universidades do Nordeste (Tecnologia)
+# Análise Gráfica do ENADE – Universidades do Nordeste (Engenharia da Computação)
 
 Este repositório reúne um projeto desenvolvido durante uma **Bolsa de Incentivo Acadêmico da UPE**, com foco na **análise e visualização de dados do ENADE**.  
-A análise considera **universidades da região Nordeste** e **cursos da área de tecnologia**, utilizando Python para transformar dados brutos em informações visuais.
+A análise considera **universidades da região Nordeste** e **cursos de Engenharia da Computação**, utilizando Python para transformar dados brutos em informações visuais.
 
 ## 🎯 Objetivo
 
@@ -12,7 +12,7 @@ O projeto explora o uso de ferramentas de análise de dados, desde a leitura de 
 ## 📌 Recorte da análise
 
 - Região analisada: **Nordeste do Brasil**
-- Área: **Tecnologia**
+- Cursos: Engenharia da Computação
 - Indicador: **Conceito ENADE**
 - Visualização: gráficos Ano × Conceito por universidade
 
